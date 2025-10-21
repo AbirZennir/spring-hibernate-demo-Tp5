@@ -21,7 +21,13 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-        <!-- Spring Context pour l'injection de dépendances -->
+      <dependency>
+          <groupId>javax.persistence</groupId>
+          <artifactId>javax.persistence-api</artifactId>
+          <version>2.2</version>
+      </dependency>
+
+      <!-- Spring Context pour l'injection de dépendances -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
